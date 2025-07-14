@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "3.12.11"
 fastapi = {extras = ["standard"], version = "^0.116.1"}
+alembic = "^1.16.4"
 
 
 [tool.poetry.group.dev.dependencies]
